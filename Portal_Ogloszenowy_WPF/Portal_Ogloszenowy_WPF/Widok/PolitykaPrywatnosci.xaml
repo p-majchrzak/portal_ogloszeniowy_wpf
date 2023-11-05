@@ -1,0 +1,33 @@
+﻿<Window x:Class="Portal_Ogloszenowy_WPF.Widok.PolitykaPrywatnosci"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Portal_Ogloszenowy_WPF.Widok"
+        mc:Ignorable="d"
+        Title="Polityka prywatności i świadczonych usług" Height="700" Width="1200" ResizeMode="NoResize" ShowInTaskbar="True" WindowStartupLocation="CenterScreen">
+    <Grid Background="#F2F2F2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Background="White">
+            <Image Width="70" Height="70" Source="ikona.png"></Image>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="Powrot" Click="Powrot_Click" FontSize="15" FontWeight="Bold" Background="#40356F" BorderBrush="#40356F" Foreground="White" Content="Powrót" Width="120" Margin="10,0,20,0" Height="40"></Button>
+                <Label Margin="100,0,20,0" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Polityka prywatności i warunki świadczenia usług."></Label>
+            </StackPanel>
+            </StackPanel>
+        <ScrollViewer Grid.Row="1" Grid.RowSpan="4" Grid.Column="0">
+            <TextBlock  x:Name="politykaTekst">
+
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Window>

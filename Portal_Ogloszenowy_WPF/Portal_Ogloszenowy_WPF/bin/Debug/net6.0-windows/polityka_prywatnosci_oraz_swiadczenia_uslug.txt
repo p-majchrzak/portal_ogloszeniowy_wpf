@@ -1,0 +1,68 @@
+Polityka prywatnosci
+
+Portal ogloszeniowy "Poszukujemy" db o ochron prywatnoci swoich uzytkownikw. Niniejsza Polityka Prywatnosci okresla zasady gromadzenia, przetwarzania 
+i wykorzystywania danych osobowych uzytkownikw przez Portal.
+
+1. Dane osobowe
+Dane osobowe to informacje o zidentyfikowanej lub mozliwej do zidentyfikowania osobie fizycznej. Portal moze gromadzic nastepujace dane osobowe uzytkownikw:
+*imie i nazwisko
+*adres e-mail
+*numer telefonu
+*dane dotyczace ogloszen, w tym tresc ogloszenia, dane kontaktowe, lokalizacja
+
+2. Gromadzenie danych osobowych
+Portal gromadzi dane osobowe uzytkownikw w nastepujacych celach:
+*rejestracja i obsluga konta uzytkownika
+*publikowanie i zarzadzanie ogloszeniami
+*kontakt z uzytkownikami
+*ulepszanie uslug Portalu
+*analiza statystyk
+
+3. Przetwarzanie danych osobowych
+Portal przetwarza dane osobowe uzytkownikow w sposob zgodny z obowiazujacym prawem, w tym z Rozporzadzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 
+z dnia 27 kwietnia 2016 r. w sprawie ochrony osob fizycznych w zwiazku z przetwarzaniem danych osobowych i w sprawie swobodnego przeplywu takich danych 
+oraz uchylenia dyrektywy 95/46/WE (ogolne rozporzadzenie o ochronie danych).
+
+4. Udostepnianie danych osobowych
+Portal moze udostepniac dane osobowe uzytkownikw nastepujacym podmiotom:
+*podmiotom swiadczacym uslugi na rzecz Portalu, takim jak dostawcy hostingu, dostawcy uslug analitycznych, dostawcy uslug marketingowych
+*podmiotom uprawnionym do uzyskania danych osobowych na podstawie przepisow prawa, w tym organom panstwowym
+
+5. Prawa uzytkownika
+*Uzytkownik ma prawo do:
+*dostepu do swoich danych osobowych
+*sprostowania swoich danych osobowych
+*usuniecia swoich danych osobowych
+*ograniczenia przetwarzania swoich danych osobowych
+*przenoszenia swoich danych osobowych
+*wniesienia sprzeciwu wobec przetwarzania swoich danych osobowych
+
+6. Bezpieczenstwo danych osobowych
+Portal stosuje odpowiednie srodki techniczne i organizacyjne w celu ochrony danych osobowych uzytkownikw przed nieuprawnionym dostepem, wykorzystaniem czy ujawnieniem.
+
+7. Zmiany Polityki Prywatnosci
+Portal zastrzega sobie prawo do zmiany Polityki Prywatnosci.
+
+Warunki swiadczenia uslug:
+
+1. Postanowienia ogolne
+Niniejsze Warunki swiadczenia uslug okreslaja zasady korzystania z portalu ogloszeniowego "Poszukujemy".
+
+2. Rejestracja
+Korzystanie z niektorych uslug Portalu wymaga rejestracji konta uzytkownika. Rejestracja konta uzytkownika jest bezplatna.
+
+3. Publikowanie ogloszen
+Uzytkownik moze publikowac ogloszenia na Portalu. Ogloszenia musza byc zgodne z obowiazujacym prawem i zasadami Portalu.
+
+4. Kontakt z uzytkownikami
+Portal moze kontaktowac sie z uzytkownikami w celu obslugi konta uzytkownika, publikacji ogloszen, odpowiedzi na zapytania uzytkownikw, 
+ulepszania uslug Portalu, analizy statystyk.
+
+5. Rozwiazywanie sporow
+Wszelkie spory powstale na tle korzystania z Portalu beda rozstrzygane przez sad powszechny wlasciwy dla siedziby Portalu.
+
+6. Zmiany Warunkow swiadczenia uslug
+Portal zastrzega sobie prawo do zmiany Warunkow swiadczenia uslug.
+
+7. Postanowienia koncowe
+Niniejsze Warunki swiadczenia uslug obowiazuja od dnia 2023-11-04.

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>ikona.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Widok\ikona.png" />
+    <None Remove="Widok\kontoZdjecie.png" />
+    <None Remove="Widok\logoSerwisu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ikona.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Widok\ikona.png" />
+    <Resource Include="Widok\kontoZdjecie.png" />
+    <Resource Include="Widok\logoSerwisu.png" />
+  </ItemGroup>
+
+</Project>

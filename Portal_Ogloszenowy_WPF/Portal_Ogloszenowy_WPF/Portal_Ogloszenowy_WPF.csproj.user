@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Widok\DoswiadczenieZawodowe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Widok\EkranLadowania.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Widok\PolitykaPrywatnosci.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Widok\StronaGlowna.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Widok\StronaLogowania.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Widok\StronaWyboru.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Widok\TworzenieUzytkownikaPodstawoweDane.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Widok\WyborTypuKonta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Widok\DoswiadczenieZawodowe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Widok\EkranLadowania.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Widok\PolitykaPrywatnosci.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Widok\StronaGlowna.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Widok\StronaLogowania.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Widok\StronaWyboru.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Widok\TworzenieUzytkownikaPodstawoweDane.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Widok\WyborTypuKonta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+﻿<Window x:Class="Portal_Ogloszenowy_WPF.Widok.DoswiadczenieZawodowe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Portal_Ogloszenowy_WPF.Widok"
+        mc:Ignorable="d"
+                Title="Doświadczenie zawodowe" Height="700" Width="1200" ResizeMode="NoResize" ShowInTaskbar="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="Powrot" Click="Powrot_Click" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" FontSize="15" FontWeight="Bold" Background="#40356F" BorderBrush="#40356F" Foreground="White" Content="Powrót" Width="120" Margin="10,0,20,0" Height="40"></Button>
+        <Button x:Name="dalej" Click="Dalej_Click" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Right" FontSize="15" FontWeight="Bold" Background="#645FCE" BorderBrush="#645FCE" Foreground="White" Content="Dalej" Width="120" Margin="10,0,20,0" Height="40"></Button>
+        <Image Source="ikona.png" Grid.Column="1" Grid.ColumnSpan="2" Width="120"></Image>
+        <ScrollViewer Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="4">
+            <StackPanel>
+                <Label Margin="0,10,0,0" Content="Aktualne stanowisko pracy" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"></Label>
+                <StackPanel Margin="0,10,0,0" HorizontalAlignment="Center">
+                    <Label HorizontalAlignment="Center" FontSize="20" Content="Nazwa stanowiska: "></Label>
+                    <TextBox Height="25" Width="200"></TextBox>
+                </StackPanel>
+                <StackPanel Margin="0,10,0,0" HorizontalAlignment="Center">
+                    <Label HorizontalAlignment="Center" FontSize="20" Content="Opis stanowiska: "></Label>
+                    <TextBox Height="25" Width="200"></TextBox>
+                    <Label Content="*jeśli w obecnym momencie nie zajmujesz żadnego stanowiska,"></Label>
+                    <Label Margin="0,-10,0,0" Content="w obydwu polach wpisz brak"></Label>
+                </StackPanel>
+                <Label Margin="0,30,0,0" Content="Podsumowanie zawodowe" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"></Label>
+                <StackPanel Margin="0,10,0,0" HorizontalAlignment="Center">
+                    <Label HorizontalAlignment="Center" FontSize="20" Content="Krótki opis doświadczenia zawodowego: "></Label>
+                    <TextBox Height="25" Width="300"></TextBox>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,103 @@
+﻿<Window x:Class="Portal_Ogloszenowy_WPF.Widok.StronaGlowna"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Portal_Ogloszenowy_WPF.Widok"
+        mc:Ignorable="d"
+        Title="Strona Główna" Height="900" Width="1600" ResizeMode="NoResize" ShowInTaskbar="True" WindowStartupLocation="CenterScreen">
+    <Grid Background="LightGray">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="120"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" Background="White">
+            <Image Height="100" Width="100" Source="/Widok/ikona.png"></Image>
+            <StackPanel Orientation="Vertical" Margin="20,0,0,0" VerticalAlignment="Center">
+                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                    <TextBox FontSize="30" Height="40" Width="500"></TextBox>
+                    <Button Background="#645FCE" BorderBrush="#645FCE" Foreground="White" Content="Wyszukaj ofertę" Width="120"></Button>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Margin="400,0,0,0" VerticalAlignment="Center" Orientation="Horizontal">
+                <Button Background="#645FCE" BorderBrush="#645FCE" Foreground="White" Content="Wyświetl mój profil" Width="120" Margin="0,0,20,0" Height="40"></Button>
+                <Button Background="#645FCE" BorderBrush="#645FCE" Foreground="White" Content="Zarządzanie kontem" Width="120" Margin="0,0,20,0" Height="40"></Button>
+                <Button x:Name="wyloguj" Click="Wyloguj_Click" Background="#645FCE" BorderBrush="#645FCE" Foreground="White" Content="Wyloguj" Width="120" Margin="0,0,20,0" Height="40"></Button>
+            </StackPanel>
+        </StackPanel>
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Background="White" Grid.Column="0">
+                <Label HorizontalAlignment="Center" Content="Filtry" FontSize="30" Foreground="Black" FontWeight="Bold"></Label>
+                <StackPanel Margin="10,0,0,0">
+                    <Label Content="Data dodania: " FontSize="20"></Label>
+                    <RadioButton IsChecked="True" Margin="10,0,0,0" GroupName="dataDodaniaPrzycisk" FontSize="15" Content="Wszystkie"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="dataDodaniaPrzycisk" FontSize="15" Content="Ostatnie 24 godziny"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="dataDodaniaPrzycisk" FontSize="15" Content="Ostatni tydzień"></RadioButton>
+                </StackPanel>
+                <StackPanel Margin="10,5,0,0">
+                    <Label Content="Rodzaj zatrudnienia: " FontSize="20"></Label>
+                    <RadioButton IsChecked="True" Margin="10,0,0,0" GroupName="rodzajZatrudnieniaPrzycisk" FontSize="15" Content="Cały etat"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="rodzajZatrudnieniaPrzycisk" FontSize="15" Content="Część etatu"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="rodzajZatrudnieniaPrzycisk" FontSize="15" Content="dodatkowa/tymczasowa"></RadioButton>
+                </StackPanel>
+                <StackPanel Margin="10,5,0,0">
+                    <Label Content="Rodzaj umowy: " FontSize="20"></Label>
+                    <RadioButton IsChecked="True" Margin="10,0,0,0" GroupName="rodzajUmowyPrzycisk" FontSize="15" Content="o pracę"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="rodzajUmowyPrzycisk" FontSize="15" Content="o dzieło"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="rodzajUmowyPrzycisk" FontSize="15" Content="zlecenie"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="rodzajUmowyPrzycisk" FontSize="15" Content="B2B"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="rodzajUmowyPrzycisk" FontSize="15" Content="zastępstwo"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="rodzajUmowyPrzycisk" FontSize="15" Content="staż/praktyka"></RadioButton>
+                </StackPanel>
+                <StackPanel Margin="10,5,0,0">
+                    <Label Content="Tryb pracy: " FontSize="20"></Label>
+                    <RadioButton IsChecked="True" Margin="10,0,0,0" GroupName="trybPracyPrzycisk" FontSize="15" Content="stacjonarna"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="trybPracyPrzycisk" FontSize="15" Content="hybrydowa"></RadioButton>
+                    <RadioButton Margin="10,0,0,0" GroupName="trybPracyPrzycisk" FontSize="15" Content="zdalna"></RadioButton>
+                </StackPanel>
+                <StackPanel Margin="10,5,0,0">
+                    <Label Content="Kategorie: " FontSize="20"></Label>
+                    <ComboBox Margin="10,0,0,0" HorizontalAlignment="Left" Width="200" Height="30" SelectedIndex="0">
+
+                    </ComboBox>
+                </StackPanel>
+                <Button Background="#645FCE" BorderBrush="#645FCE" Foreground="White" Content="Zastosuj filtry" Width="220" Height="40" Margin="0,15,0,0"></Button>
+            </StackPanel>
+            <ScrollViewer Grid.Column="1" Grid.ColumnSpan="3">
+                <StackPanel VerticalAlignment="Top">
+                    
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Vertical" Background="White">
+            
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" Background="White">
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Label FontSize="17" FontWeight="Bold"  Content="Zapisz się na newsletter i otrzymuj najnowsze oferty pracy."></Label>
+                <Label Content="Należy podać adres e-mail:"></Label>
+                <StackPanel Orientation="Horizontal">
+                    <TextBox FontSize="20" Width="380" Height="30"></TextBox>
+                    <Button Background="#645FCE" BorderBrush="#645FCE" Foreground="White" Content="Zapisz się" Width="120" Margin="10,0,0,0"></Button>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Vertical" Background="White">
+            
+        </StackPanel>
+    </Grid>
+</Window>
